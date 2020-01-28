@@ -1,0 +1,150 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "dotnet-sonarscanner/4.8.0": {
+        "type": "package"
+      }
+    },
+    ".NETCoreApp,Version=v2.1/any": {
+      "dotnet-sonarscanner/4.8.0": {
+        "type": "package",
+        "tools": {
+          "tools/netcoreapp2.1/any/DotnetToolSettings.xml": {},
+          "tools/netcoreapp2.1/any/Newtonsoft.Json.dll": {},
+          "tools/netcoreapp2.1/any/SonarQube.Analysis.xml": {},
+          "tools/netcoreapp2.1/any/SonarScanner.MSBuild.Common.dll": {},
+          "tools/netcoreapp2.1/any/SonarScanner.MSBuild.PostProcessor.dll": {},
+          "tools/netcoreapp2.1/any/SonarScanner.MSBuild.PreProcessor.dll": {},
+          "tools/netcoreapp2.1/any/SonarScanner.MSBuild.Shim.dll": {},
+          "tools/netcoreapp2.1/any/SonarScanner.MSBuild.TFS.dll": {},
+          "tools/netcoreapp2.1/any/SonarScanner.MSBuild.Tasks.dll": {},
+          "tools/netcoreapp2.1/any/SonarScanner.MSBuild.dll": {},
+          "tools/netcoreapp2.1/any/SonarScanner.MSBuild.runtimeconfig.json": {},
+          "tools/netcoreapp2.1/any/Targets/SonarQube.Integration.ImportBefore.targets": {},
+          "tools/netcoreapp2.1/any/Targets/SonarQube.Integration.targets": {},
+          "tools/netcoreapp2.1/any/sonar-scanner-4.2.0.1873/bin/sonar-scanner": {},
+          "tools/netcoreapp2.1/any/sonar-scanner-4.2.0.1873/bin/sonar-scanner-debug": {},
+          "tools/netcoreapp2.1/any/sonar-scanner-4.2.0.1873/bin/sonar-scanner-debug.bat": {},
+          "tools/netcoreapp2.1/any/sonar-scanner-4.2.0.1873/bin/sonar-scanner.bat": {},
+          "tools/netcoreapp2.1/any/sonar-scanner-4.2.0.1873/conf/sonar-scanner.properties": {},
+          "tools/netcoreapp2.1/any/sonar-scanner-4.2.0.1873/lib/sonar-scanner-cli-4.2.0.1873.jar": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "dotnet-sonarscanner/4.8.0": {
+      "sha512": "IpA6bTfuZwaqinnbt/2HcJduOV8PD+2vDyAkO7BZ3+nShq+IOl0EtbLIe3Ks7QfJRdBO9PZQlDGz6wGIfoyORg==",
+      "type": "package",
+      "path": "dotnet-sonarscanner/4.8.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "dotnet-sonarscanner.4.8.0.nupkg.sha512",
+        "dotnet-sonarscanner.nuspec",
+        "tools/netcoreapp2.1/any/DotnetToolSettings.xml",
+        "tools/netcoreapp2.1/any/Newtonsoft.Json.dll",
+        "tools/netcoreapp2.1/any/SonarQube.Analysis.xml",
+        "tools/netcoreapp2.1/any/SonarScanner.MSBuild.Common.dll",
+        "tools/netcoreapp2.1/any/SonarScanner.MSBuild.PostProcessor.dll",
+        "tools/netcoreapp2.1/any/SonarScanner.MSBuild.PreProcessor.dll",
+        "tools/netcoreapp2.1/any/SonarScanner.MSBuild.Shim.dll",
+        "tools/netcoreapp2.1/any/SonarScanner.MSBuild.TFS.dll",
+        "tools/netcoreapp2.1/any/SonarScanner.MSBuild.Tasks.dll",
+        "tools/netcoreapp2.1/any/SonarScanner.MSBuild.dll",
+        "tools/netcoreapp2.1/any/SonarScanner.MSBuild.runtimeconfig.json",
+        "tools/netcoreapp2.1/any/Targets/SonarQube.Integration.ImportBefore.targets",
+        "tools/netcoreapp2.1/any/Targets/SonarQube.Integration.targets",
+        "tools/netcoreapp2.1/any/sonar-scanner-4.2.0.1873/bin/sonar-scanner",
+        "tools/netcoreapp2.1/any/sonar-scanner-4.2.0.1873/bin/sonar-scanner-debug",
+        "tools/netcoreapp2.1/any/sonar-scanner-4.2.0.1873/bin/sonar-scanner-debug.bat",
+        "tools/netcoreapp2.1/any/sonar-scanner-4.2.0.1873/bin/sonar-scanner.bat",
+        "tools/netcoreapp2.1/any/sonar-scanner-4.2.0.1873/conf/sonar-scanner.properties",
+        "tools/netcoreapp2.1/any/sonar-scanner-4.2.0.1873/lib/sonar-scanner-cli-4.2.0.1873.jar",
+        "tools/netcoreapp3.0/any/DotnetToolSettings.xml",
+        "tools/netcoreapp3.0/any/Newtonsoft.Json.dll",
+        "tools/netcoreapp3.0/any/SonarQube.Analysis.xml",
+        "tools/netcoreapp3.0/any/SonarScanner.MSBuild.Common.dll",
+        "tools/netcoreapp3.0/any/SonarScanner.MSBuild.PostProcessor.dll",
+        "tools/netcoreapp3.0/any/SonarScanner.MSBuild.PreProcessor.dll",
+        "tools/netcoreapp3.0/any/SonarScanner.MSBuild.Shim.dll",
+        "tools/netcoreapp3.0/any/SonarScanner.MSBuild.TFS.dll",
+        "tools/netcoreapp3.0/any/SonarScanner.MSBuild.Tasks.dll",
+        "tools/netcoreapp3.0/any/SonarScanner.MSBuild.dll",
+        "tools/netcoreapp3.0/any/SonarScanner.MSBuild.runtimeconfig.json",
+        "tools/netcoreapp3.0/any/Targets/SonarQube.Integration.ImportBefore.targets",
+        "tools/netcoreapp3.0/any/Targets/SonarQube.Integration.targets",
+        "tools/netcoreapp3.0/any/sonar-scanner-4.2.0.1873/bin/sonar-scanner",
+        "tools/netcoreapp3.0/any/sonar-scanner-4.2.0.1873/bin/sonar-scanner-debug",
+        "tools/netcoreapp3.0/any/sonar-scanner-4.2.0.1873/bin/sonar-scanner-debug.bat",
+        "tools/netcoreapp3.0/any/sonar-scanner-4.2.0.1873/bin/sonar-scanner.bat",
+        "tools/netcoreapp3.0/any/sonar-scanner-4.2.0.1873/conf/sonar-scanner.properties",
+        "tools/netcoreapp3.0/any/sonar-scanner-4.2.0.1873/lib/sonar-scanner-cli-4.2.0.1873.jar"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v2.1": [
+      "dotnet-sonarscanner"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\maper10\\.dotnet\\tools\\.store\\.stage\\qogqg42c.qnc": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\maper10\\AppData\\Local\\Temp\\all2w2ai.4tl\\restore.csproj",
+      "projectName": "restore",
+      "projectPath": "C:\\Users\\maper10\\AppData\\Local\\Temp\\all2w2ai.4tl\\restore.csproj",
+      "packagesPath": "C:\\Users\\maper10\\.dotnet\\tools\\.store\\.stage\\qogqg42c.qnc",
+      "outputPath": "C:\\Users\\maper10\\.dotnet\\tools\\.store\\.stage\\qogqg42c.qnc\\",
+      "projectStyle": "DotnetToolReference",
+      "configFilePaths": [
+        "C:\\Users\\maper10\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp2.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp2.1": {
+        "dependencies": {
+          "dotnet-sonarscanner": {
+            "target": "Package",
+            "version": "(, )"
+          }
+        },
+        "imports": [
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    },
+    "runtimes": {
+      "any": {
+        "#import": []
+      }
+    }
+  }
+}
